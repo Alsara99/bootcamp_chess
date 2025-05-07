@@ -4,7 +4,7 @@ from stockfish import Stockfish
 from io import StringIO
 from functions import *
 
-st.title("♟️Шахматный анализатор by Singularity Hub")
+st.title("♟️Шахматный анализатор♟️")
 mode = st.radio("Выберите способ загрузки:", ["PGN-файл", "FEN-ввод"])
 
 stockfish_path = "stockfish/stockfish.exe"
